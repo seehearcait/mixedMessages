@@ -2,13 +2,16 @@
 
 ## Final Project
 
-This project will deliver to the user their drag queen name, details on their performance on "Drag Race", and their signature catchphrase.
+This delivers to the user their drag queen name, details on their performance on "Drag Race", and their signature catchphrase.
 
 Project generates three items:
 
 - Drag queen name for the user
 - Their challenge wins/losses
 - Signature catchphrase
+
+### How to Run
+Run ```node app.js``` to print your drag details to the console
 
 ### Drag Queen Name
 
