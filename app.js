@@ -1,12 +1,9 @@
-const queenName = require('./js/queenName');
+var queenName = require('./js/queenName.js')
 
+// ** CONSTRUCT FIRST NAME
+const firstName = queenName.modules.getFirstName();
+const lastName = queenName.modules.getLastName();
+const fullName = firstName + " " + lastName;
 
-const getRandom = (array) => {
-    const length = array.length;
-    const index =  Math.floor(Math.random()*length)
-    return array[index];
-}
+console.log(`Well hello, ${fullName}!  You are sickening!`);
 
-// console.log(queenName.firstName);
-
-module.exports = {getRandom};
