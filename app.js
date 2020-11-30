@@ -3,6 +3,11 @@ var challenges = require('./js/challenge.js');
 var catchPhrases = require('./js/catchphrase.js');
 const ordinal = require('ordinal');
 
+// ** DOM ELEMENTS
+const button = document.getElementById('button');
+const message = document.getElementById('message')
+const test = document.getElementById('test');
+
 // ** CONSTRUCT FIRST NAME
 const firstName = queenName.modules.getFirstName();
 const lastName = queenName.modules.getLastName();
@@ -24,5 +29,13 @@ const yourProfile = {
     catchPhrase: catchPhrase
 };
 
+function displayMessage(profile){
+    // console.log('Ran DM')
+    test.innerHTML = 'Ran!'
+    // message.innerHTML = profile;
+}
+
 console.log(yourProfile);
 
+//Button On Click
+button.addEventListener('click', displayMessage(yourProfile));
