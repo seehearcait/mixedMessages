@@ -5,26 +5,24 @@
 - [ ] Set up data sources
 - [ ] Create name generator
 - [ ] Create challenge selector
-- [ ] Create song selector
+- [ ] Create catchphrase selector
 
 ## End Result
 
 Project will generate three items:
 
 - Drag queen name for the user
-- Their best challenge
-- Signature lip-sync song
+- Their challenge wins/losses
+- Signature catchphrase
 
 ### Drag Queen Name
 
-#### Data Source
-
 Database of all queens first and last names?
 
-### Best Challenge
+### Challenge Performance
 
 List of all repeat RuPaul Challenges
 
-### Signature Lip-Sync Song
+### Signature Catchphrase
 
-Randomly selected song from database?
+List of popular catchphrases
