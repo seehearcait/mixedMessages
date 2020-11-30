@@ -2,10 +2,10 @@
 
 ## Action Items
 
-- [ ] Set up data sources
-- [ ] Create name generator
-- [ ] Create challenge selector
-- [ ] Create song selector
+- [X] Set up data sources
+- [X] Create name generator
+- [X] Create challenge selector
+- [X] Create song selector
 
 ## End Result
 
