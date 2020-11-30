@@ -37,4 +37,4 @@ const losingChallenge = (placement, win) => {
     }
 };
 
-exports.modules = {finalPlacement, randomChallenge, winningChallenge, losingChallenge};
+export const modules = {finalPlacement, randomChallenge, winningChallenge, losingChallenge};

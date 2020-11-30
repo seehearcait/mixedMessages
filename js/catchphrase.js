@@ -36,4 +36,4 @@ const getCatchphrase = () => {
     return getRandom(catchPhrases);
 };
 
-module.exports = {getCatchphrase};
+export {getCatchphrase};

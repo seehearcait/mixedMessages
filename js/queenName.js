@@ -16,4 +16,4 @@ const getLastName = () => {
     return getRandom(lastNames);
 }
 
-exports.modules = {getFirstName, getLastName};
+export const modules = {getFirstName, getLastName};

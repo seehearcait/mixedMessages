@@ -1,25 +1,25 @@
-var queenName = require('./js/queenName.js');
-var challenges = require('./js/challenge.js');
-var catchPhrases = require('./js/catchphrase.js');
-const ordinal = require('ordinal');
+import { modules } from './js/queenName.js';
+import { modules as _modules } from './js/challenge.js';
+import { getCatchphrase } from './js/catchphrase.js';
+import ordinal from 'ordinal';
 
 // ** DOM ELEMENTS
-const button = document.getElementById('button');
+const button = document.getElementById('button')
 const message = document.getElementById('message')
 const test = document.getElementById('test');
 
 // ** CONSTRUCT FIRST NAME
-const firstName = queenName.modules.getFirstName();
-const lastName = queenName.modules.getLastName();
+const firstName = modules.getFirstName();
+const lastName = modules.getLastName();
 const fullName = firstName + " " + lastName;
 
 // ** FIND PLACEMENT AND CHALLENGE PERFORMANCE
-const placement = challenges.modules.finalPlacement();
-const challengeWin = challenges.modules.winningChallenge(placement);
-const challengeLoss = challenges.modules.losingChallenge(placement, challengeWin);
+const placement = _modules.finalPlacement();
+const challengeWin = _modules.winningChallenge(placement);
+const challengeLoss = _modules.losingChallenge(placement, challengeWin);
 
 // ** GET CATCHPHRASE
-const catchPhrase =  catchPhrases.getCatchphrase();
+const catchPhrase =  getCatchphrase();
 
 const yourProfile = {
     name: fullName,
