@@ -2,10 +2,10 @@
 
 ## Action Items
 
-- [ ] Set up data sources
-- [ ] Create name generator
-- [ ] Create challenge selector
-- [ ] Create catchphrase selector
+- [X] Set up data sources
+- [X] Create name generator
+- [X] Create challenge selector
+- [X] Create catchphrase selector
 
 ## End Result
 

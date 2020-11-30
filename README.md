@@ -4,6 +4,24 @@
 
 This project will deliver to the user their drag queen name, details on their performance on "Drag Race", and their signature catchphrase.
 
+Project generates three items:
+
+- Drag queen name for the user
+- Their challenge wins/losses
+- Signature catchphrase
+
+### Drag Queen Name
+
+Combination of first and last names from previous contestants
+
+### Challenge Performance
+
+Which challenges was your greatest win and your final loss?
+
+### Signature Catchphrase
+
+What was your signature catchphrase?
+
 ## Project Prompt
 
 For this project, you will build a message generator program. Every time a user runs a program, they should get a new, randomized output.
